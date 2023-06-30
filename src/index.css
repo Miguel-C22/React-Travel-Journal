@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  gap: 10px;
+  background-color: #F55A5A;
+  padding: 20px;
+}
+.placeContainer{
+  max-width: 800px;
+  display: flex;
+  margin: 50px auto;
+  gap: 50px;
+  padding-bottom: 50px;
+  border-bottom: #c0bdbd solid 1px;
+}
+.placeImg{
+  max-width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+.placeInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.locationPing{
+  width: 10px;
+  height: 15px;
+}
+.location {
+  display: flex;
+  gap: 50px;
+}
+.location div{
+  display: flex;
+  gap: 10px;
+}
+.location a{
+  color: #918E9B;
+}
+.startDataEndData{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+.startDataEndData p{
+  font-size: 1.5rem;
+}
+.description{
+ 
+}
+
+@media screen and (max-width: 850px){
+  .placeContainer{
+    max-width: 400px;
+    flex-wrap: wrap;
+  }
+  .location{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .placeInfo{
+    margin: auto;
+    padding: 0 20px;
+  }
+  .placeImg{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 450px){
+  .placeImg{
+    text-align: center;
+    margin: auto;
+    max-width: 95%;
+  }
+}
+
+
+
